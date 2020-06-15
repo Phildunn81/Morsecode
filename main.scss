@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    color: tomato;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+$box-height:10vh;
+$box-width:200px;
+body{
+    background-image: url(./morse.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+main{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    color: mediumturquoise;
+}
+
+input{
+    width:$box-width;
+    height:$box-height;
+    text-align: left;
+    padding: 0;
+    padding-left: 0;
+    opacity:0.75;
+}
+
+p {
+    width:$box-width;
+    height:$box-height;
+    color: black;
+    opacity:0.8;
+    background-color: white;
+}
+
+button {
+    width:60px;
+    height:30px;
+    color:black;
+}
