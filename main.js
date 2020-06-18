@@ -34,13 +34,16 @@ const morseCode = {
     7:"--...",
     8:"---..",
     9:"----.",
-    0:"-----"
+    0:"-----",
+    " ":" "  // handles spaces input by the user, puts a space in the morse code
 }
 
 button1.addEventListener('click',(event) => {
+    document.getElementById('output').innerHTML= " "; // refreshes the output box first
     const englishInput = document.getElementById('english').value.split("");
     englishInput.forEach(letter => {
-    morseCode[letter];
+        letter = letter.toLowerCase(); // puts each letter into lowercase
+        morseCode[letter];
     document.getElementById('output').innerHTML+= morseCode[letter];
  });
  
