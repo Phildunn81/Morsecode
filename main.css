@@ -43,6 +43,7 @@ input {
   padding-left: 0;
   opacity: 0.75;
   font-size: 25px;
+  border-radius: 5px;
 }
 
 p {
@@ -51,6 +52,7 @@ p {
   color: black;
   opacity: 0.8;
   background-color: white;
+  border-radius: 5px;
   font-size: 25px;
 }
 
