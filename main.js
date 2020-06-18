@@ -1,3 +1,5 @@
+//notes are the bugs i encountered and fixed
+
 const morseCode = {
     a:".-",
     b:"-...",
