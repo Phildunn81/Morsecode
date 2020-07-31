@@ -1,3 +1,8 @@
-A 3 hour challenge to produce a morsecode translator
+#Morescode Challenge 
 
-Styling it basically if there was time
+- 3 hour challenge
+- Produce a morsecode translator
+- It takes an input of text and outputs the corresponding morse-code
+- Styling it in Sass if there is time
+
+(functional solution)
